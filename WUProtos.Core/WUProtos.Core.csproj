@@ -9,9 +9,9 @@
     <PackageId>WUProtos.Core</PackageId>
     <PackageTags>Harry Potter Wizards Unite;WUProtos;netstandard</PackageTags>
     <PackageIconUrl>https://secure.gravatar.com/avatar/d6dddda25a178dc2dd93edae79821fe3?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/hpwizardsunite-dev-contrib/WULib/tree/master/WUProtos.Core</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/hpwizardsunite-dev-contrib/WUProtos.Core.git</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/hpwizardsunite-dev-contrib/WULib/tree/master/WUProtos.Core</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hpwizardsunite-dev-contrib/WUProtos.Core.git</RepositoryUrl>
     <Version>1.0.0.2-beta</Version>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.0' ">1.6.1</NetStandardImplicitPackageVersion>
     <DebugType>portable</DebugType>

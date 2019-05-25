@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>A community-driven Wizards Unite API Library written in C#. You can read the changelog here https://github.com/Furtif/WULib/blob/master/README.md.</Description>
+    <Description>A community-driven Wizards Unite API Library written in C#. You can read the changelog here https://github.com/hpwizardsunite-dev-contrib/WULib/blob/master/README.md.</Description>
     <AssemblyTitle>WULib.Core</AssemblyTitle>
     <Authors>--=FurtiF™=--</Authors>
     <TargetFramework>netstandard1.1</TargetFramework>
@@ -9,9 +9,9 @@
     <PackageId>WULib.Core</PackageId>
     <PackageTags>Harry Potter Wizards Unite;WULib;netstandard</PackageTags>
     <PackageIconUrl>https://secure.gravatar.com/avatar/d6dddda25a178dc2dd93edae79821fe3?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/Furtif/WULib</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/hpwizardsunite-dev-contrib/WULib</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Furtif/WULib</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hpwizardsunite-dev-contrib/WULib</RepositoryUrl>
     <Version>1.0.0.2-beta</Version>
     <Platforms>AnyCPU;x64;x86</Platforms>
     <Company>--=FurtiF™=--</Company>

@@ -18,6 +18,8 @@ The library is a bit low-level now but the goal is to provide a high-level libra
 
 * .NET Standard 1.1
 
+https://www.nuget.org/packages/WULib.Core/
+
 ## NuGet
 
 ### Console

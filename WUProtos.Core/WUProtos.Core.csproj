@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Precompiled protobuf files for communication with Harry Potter Wizards Unite.</Description>
+    <AssemblyTitle>WUProtos.Core</AssemblyTitle>
+    <Authors>--=FurtiF™=--</Authors>
+    <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
+    <AssemblyName>WUProtos.Core</AssemblyName>
+    <PackageId>WUProtos.Core</PackageId>
+    <PackageTags>Harry Potter Wizards Unite;WUProtos;netstandard</PackageTags>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/d6dddda25a178dc2dd93edae79821fe3?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Furtif/WUProtos.Core</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Furtif/WUProtos.Core</RepositoryUrl>
+    <Version>1.0.0.2-beta</Version>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.0' ">1.6.1</NetStandardImplicitPackageVersion>
+    <DebugType>portable</DebugType>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Company>--=FurtiF™=--</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.8.0-rc.1" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>A community-driven Wizards Unite API Library written in C#. You can read the changelog here https://github.com/Furtif/WULib/blob/master/README.md.</Description>
+    <AssemblyTitle>WULib.Core</AssemblyTitle>
+    <Authors>--=FurtiF™=--</Authors>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <AssemblyName>WULib.Core</AssemblyName>
+    <PackageId>WULib.Core</PackageId>
+    <PackageTags>Harry Potter Wizards Unite;WULib;netstandard</PackageTags>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/d6dddda25a178dc2dd93edae79821fe3?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Furtif/WULib</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Furtif/WULib</RepositoryUrl>
+    <Version>1.0.0.2-beta</Version>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Company>--=FurtiF™=--</Company>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.8.0-rc.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.8.5" />
+    <PackageReference Include="S2Geometry" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WUProtos.Core\WUProtos.Core.csproj" />
+  </ItemGroup>
+
+</Project>

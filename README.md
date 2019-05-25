@@ -29,3 +29,6 @@ Right click your project in Visual Studio, click `Manage NuGet Packages..`, make
 # Features
 
 ## Authentication
+
+# Credits
+ - Based into [POGOLib](https://github.com/AeonLucid/POGOLib)

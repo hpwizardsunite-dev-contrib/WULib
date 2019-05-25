@@ -5,7 +5,7 @@
 ![alt text][1.1] <strong><em>`The contents of this repo are a proof of concept and are for educational use only`</em></strong>![alt text][1.1]<br/>
 
 
-WULib [![Build status](https://ci.appveyor.com/api/projects/status/aermagx12s0btwgn?svg=true)](https://ci.appveyor.com/project/RocketBot/wulib) [![NuGet](https://img.shields.io/nuget/v/WULib.Core.svg?maxAge=60)](https://www.nuget.org/packages/WULib.Core) WUProtos [![NuGet](https://img.shields.io/nuget/vpre/WUProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/WUProtos.Core)  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/rocketbot)
+WULib [![Build status](https://ci.appveyor.com/api/projects/status/aermagx12s0btwgn?svg=true)](https://ci.appveyor.com/project/RocketBot/wulib) [![NuGet](https://img.shields.io/nuget/v/WULib.Core.svg?maxAge=60)](https://www.nuget.org/packages/WULib.Core) WUProtos [![NuGet](https://img.shields.io/nuget/vpre/WUProtos.Core.svg?maxAge=60)](https://www.nuget.org/packages/WUProtos.Core)  [![Discord](https://img.shields.io/badge/Discord-Online-blue.svg)](https://discord.gg/mFH2D34)
 ===================
 
 WULib is written in C# and aims to be a community-driven Wizards Unite API. Feel free to submit pull requests.
